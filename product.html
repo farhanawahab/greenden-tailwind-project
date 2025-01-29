@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+
+<body>
+    <!-- Responsive Navbar -->
+    <nav class="bg-green-200 p-5 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl font-semibold">Greenden</h1>
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <ul class="flex gap-5 text-gray-600 hidden md:flex">
+            <li>
+                <a class="hover:underline hover:text-black" href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a class="hover:underline hover:text-black" href="product.html">Products</a>
+            </li>
+
+            <li>
+                <a class="hover:underline hover:text-black" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Product section -->
+    <div class="text-center mt-5">
+        <h2 class="font-bold text-2xl mt-5 text-center">Our Products</h2> <br>
+        <input type="text" placeholder="Search for a Product..." class="border border-black p-3 mb-5"
+            style="width: 60%;">
+
+        <div class="grid grid-cols-2 md:grid-cols-4">
+            <div>
+                <img src="./Images/img2.png" alt="Flower pot"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 mt-10">
+                <h1 class="text-lg">Rose Plant</h1>
+                <p>$20</p>
+            </div>
+
+            <div>
+                <img src="./Images/img3.jpg" alt="Flower pot"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 mt-10">
+                <h1 class="text-lg">Campanula</h1>
+                <p>$30</p>
+            </div>
+
+            <div>
+                <img src="./Images/img4.jpg" alt="Flower pot"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 mt-10">
+                <h1 class="text-lg">Haworthia</h1>
+                <p>$35</p>
+            </div>
+
+            <div>
+                <img src="./Images/img5.jpg" alt="Flower pot"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 mt-10">
+                <h1 class="text-lg">Crassula</h1>
+                <p>$18</p>
+            </div>
+
+            <div>
+                <img src="./Images/img6.png" alt="Flower pot"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 mt-10">
+                <h1 class="text-lg">Rosemary</h1>
+                <p>$22</p>
+            </div>
+
+            <div>
+                <img src="./Images/img7.png" alt="Flower pot"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 mt-10">
+                <h1 class="text-lg">Thyme</h1>
+                <p>$30</p>
+            </div>
+
+            <div>
+                <img src="./Images/img8.png" alt="Flower pot"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 mt-10">
+                <h1 class="text-lg">White Tulip</h1>
+                <p>$36</p>
+            </div>
+
+            <div>
+                <img src="./Images/img9.png" alt="Flower pot"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 mt-10">
+                <h1 class="text-lg">Daisy</h1>
+                <p>$40</p>
+            </div>
+        </div>
+    </div>
+
+     <!-- Footer -->
+     <section class="bg-green-200 p-5 mt-8 flex flex-col gap-3">
+        <h1 class="text-2xl font-semibold">Greenden</h1>
+        <p>&copy;2025 Greenden.com</p>
+      </section>
+</body>
+
+</html>
