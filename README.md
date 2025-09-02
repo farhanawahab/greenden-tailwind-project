@@ -1,34 +1,45 @@
 ## Greenden Plant Website
 
-I’ve built a **plant-selling website** called **Greenden** using **HTML and Tailwind CSS**. It’s a clean and minimal website that allows users to explore different plants, check their prices, and get in touch with us.  
+I’ve built a **plant-selling website** called **Greenden** using **HTML, Tailwind CSS, and JavaScript**.
+It’s a clean and minimal website that allows users to explore different plants, check their prices, and get in touch with us.
 
-## Project Overview  
-Greenden is a simple yet elegant **online plant store** designed for plant lovers. The website is fully responsive and ensures a smooth browsing experience. This website is fully responsive in all devices(mobile,tablets and laptop).
+## Project Overview
 
-It consists of **three main pages**:  
+Greenden is a simple yet elegant **online plant store** designed for plant lovers.
+The website is **fully responsive** on all devices (mobile, tablets, and laptops) and ensures a smooth browsing experience.
 
-### 1. Home Page  
-- Introduces visitors to **Greenden** through an **About section**.  
-- Showcases **customer reviews** to build trust.  
-- Displays **bestselling plants** with attractive visuals.
-- Newsletter subscription for exclusive updates.  
+It consists of **three main pages**:
 
-### 2. Product Page  
-- Contains a variety of **plants** with their **names and prices**.  
-- Clean grid layout for easy navigation.  
+### 1. Home Page
+* Introduces visitors to **Greenden** through an **About section**.
+* Showcases **customer reviews** to build trust.
+* Displays **bestselling plants** with attractive visuals.
+* Newsletter subscription for exclusive updates.
 
-### 3. Contact Page  
-- A **contact form** that allows users to reach out for queries or orders.  
-- Simple and user-friendly design.  
+### 2. Product Page
+* Contains a variety of **plants** with their **names and prices**.
+* Clean grid layout for easy navigation.
+* **Search Functionality** – Quickly search and filter plants by name.
 
-## Technologies Used  
-- **HTML:** For structuring the web pages.  
-- **Tailwind CSS:**  For modern, responsive, and fast styling.  
+### 3. Contact Page
+* A **contact form** that allows users to reach out for queries or orders.
+* Simple and user-friendly design.
 
-## Link to Live Demo:
-https://farhanawahab.github.io/greenden-tailwind-project/
+## JavaScript Features
+* **Side Navbar (Mobile View)** – A collapsible side navigation menu appears on smaller screens for easier browsing.
+* **Search Functionality** – Added to the product page so users can search for plants seamlessly.
 
-## Contributing  
-If you have suggestions or want to improve the project, feel free to fork the repo, make changes, and submit a pull request. Contributions are always welcome.  
+## Technologies Used
+* **HTML** – For structuring the web pages.
+* **Tailwind CSS** – For modern, responsive, and fast styling.
+* **JavaScript** – For interactive features (search bar and responsive navbar).
+
+## Link to Live Demo
+[Click here to view the project](https://farhanawahab.github.io/greenden-tailwind-project/)
+
+## Contributing
+If you have suggestions or want to improve the project, feel free to fork the repo, make changes, and submit a pull request. Contributions are always welcome.
 
 Thank you for visiting my project!
+
+Do you want me to also refine this README into a **GitHub professional style** (with badges, sections like Installation/Usage), or keep it clean and simple like this?
