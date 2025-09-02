@@ -13,8 +13,8 @@
     <nav class="bg-green-200 p-5 flex items-center justify-between shadow-xl sticky top-0 z-10">
         <h1 class="text-2xl font-semibold">Greenden</h1>
 
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-            class="w-6 h-6 md:hidden">
+        <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6 md:hidden cursor-pointer">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
 
@@ -33,13 +33,33 @@
         </ul>
     </nav>
 
+    <!--Side navbar-->
+    <section id="sidenav" class="bg-green-200 fixed z-20 top-0" style="width: 50%; height: 100vh; right: -50%;">
+        <div class="text-right p-5" >
+            <p id="closenav" class="inline cursor-pointer">X</p>
+        </div>
+        <ul class="flex flex-col gap-10 items-center text-gray-600">
+            <li>
+                <a class="hover:underline hover:text-black" href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a class="hover:underline hover:text-black" href="product.html">Products</a>
+            </li>
+
+            <li>
+                <a class="hover:underline hover:text-black" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </section>
+
     <!-- Product section -->
     <div class="text-center mt-5">
         <h2 class="font-bold text-2xl mt-5 text-center">Our Products</h2> <br>
-        <input type="text" placeholder="Search for a Product..." class="border border-black p-3 mb-5"
+        <input id="search" type="text" placeholder="Search for a Product..." class="border border-black p-3 mb-5"
             style="width: 60%;">
 
-        <div class="grid grid-cols-2 md:grid-cols-4">
+        <div id="productcontainer" class="grid grid-cols-2 md:grid-cols-4">
             <div>
                 <img src="./Images/img2.png" alt="Flower pot"
                     class="inline hover:shadow-xl transform hover:-translate-y-2 mt-10">
@@ -108,6 +128,8 @@
             <a href="contact.html" class="underline">Contact</a>
         </div>
       </section>
+
+      <script src="product.js"></script>
 </body>
 
 </html>
