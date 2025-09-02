@@ -41,5 +41,3 @@ It consists of **three main pages**:
 If you have suggestions or want to improve the project, feel free to fork the repo, make changes, and submit a pull request. Contributions are always welcome.
 
 Thank you for visiting my project!
-
-Do you want me to also refine this README into a **GitHub professional style** (with badges, sections like Installation/Usage), or keep it clean and simple like this?
